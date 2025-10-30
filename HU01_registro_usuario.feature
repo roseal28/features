@@ -19,7 +19,7 @@ Feature: Registro de nuevo usuario
 
  Scenario Outline: Escenario 2: Registro con credenciales válidas
   Dado que el ingeniero se encuentra en la <pantalla Registrarse>
-  Y completó los campos “Nombres”, “Apellidos”, “Rol”, “Teléfono”, “Segmento”, “Empresa”, “Correo Institucional”, “Contraseña” con <información válida>
+  Y completó los campos “Nombres”, “Apellidos”, “Rol”, “Teléfono”, “Segmento”, “Empresa”, “Correo Institucional”, “Contraseña” con <informacion valida>
   Cuando pulsa el <boton Registrarse>
   Entonces el sistema <valida los datos> y redirige al <WorkShop>
 
@@ -28,4 +28,5 @@ Feature: Registro de nuevo usuario
    | Formulario de registro | Nombres, Apellidos, Rol, Teléfono, Segmento, Empresa, Correo Institucional, Contraseña | Registrarse       |
 
   Examples: Datos de salida
+
    | valida los datos | WorkShop |
