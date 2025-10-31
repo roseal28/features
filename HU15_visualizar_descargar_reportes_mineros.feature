@@ -1,5 +1,5 @@
 Feature: Visualizar y descargar reportes mineros
- Description	Como ingeniero de planificación minera 
+ Como ingeniero de planificación minera 
  quiero acceder a un reporte minero en PDF asociado al yacimiento 
  para poder guardarlo y compartirlo con otros miembros del equipo
 
@@ -27,4 +27,5 @@ Feature: Visualizar y descargar reportes mineros
 
   Example: Datos de salida
   | archivo en formato PDF |
+
   | Reporte.pdf            |
