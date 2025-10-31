@@ -14,4 +14,4 @@ Feature: Selección de proyectos disponibles
    | usuario   | Proyectos | Proyecto A                    |
 
    Example: Datos de salida
-   |menu Principal |
+   | menu Principal |
