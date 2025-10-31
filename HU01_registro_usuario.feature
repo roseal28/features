@@ -28,5 +28,5 @@ Feature: Registro de nuevo usuario
    | Formulario de registro | Nombres, Apellidos, Rol, Teléfono, Segmento, Empresa, Correo Institucional, Contraseña | Registrarse       |
 
   Examples: Datos de salida
-
    | valida los datos | WorkShop |
+
