@@ -10,8 +10,8 @@ Feature: Inicio de sesión con credenciales
   Entonces la aplicación muestra la <pantalla Login>
 
   Examples: Datos de entrada
-   | ingeniero   | pantalla inicial | acceso a internet | boton Iniciar Sesion |
-   | usuario     | Inicio           | Sí                | Iniciar Sesión       |
+   | ingeniero   | pantalla inicial | boton Iniciar Sesion |
+   | usuario     | Inicio           | Iniciar Sesión       |
 
   Examples: Datos de salida
    | pantalla Login |
@@ -20,7 +20,7 @@ Feature: Inicio de sesión con credenciales
   Dado que el <ingeniero> se encuentra en la <pantalla_login>
   Y el <ingeniero> rellenó el campo <Email> con su correo institucional
   Y el <ingeniero> rellenó el campo <Password> con su respectiva contraseña
-  Cuando pulsa el <boton Iniciar Sesion>
+  Cuando el <ingeniero> pulsa el <boton Iniciar Sesion>
   Entonces la aplicación valida las credenciales y muestra la <pantalla WorkShop>
 
   Examples: Datos de entrada
